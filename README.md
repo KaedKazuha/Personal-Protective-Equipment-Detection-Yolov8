@@ -58,13 +58,38 @@ The application provides a user-friendly web interface for real-time PPE detecti
 - The output will display the image/video with bounding boxes around detected PPE items.
 
 ## 5. Model Architecture (YOLOv8)
-The YOLOv8 model is a state-of-the-art object detection architecture that combines the best features from YOLOv3 and YOLOv4. It consists of a backbone network (e.g., Darknet-53) for feature extraction, a detection head with anchor boxes, and several YOLO layers for prediction. The model is implemented using PyTorch, providing fast and accurate detection.
+Ultralytics YOLOv8 is a cutting-edge, state-of-the-art (SOTA) model that builds upon the success of previous YOLO versions and introduces new features and improvements to further boost performance and flexibility [^1^]. YOLOv8 is designed to be fast, accurate, and easy to use, making it an excellent choice for a wide range of object detection and tracking, instance segmentation, image classification, and pose estimation tasks [^1^].
+
+[^1^]: More information about Ultralytics YOLOv8 can be found in the official GitHub repository: [Ultralytics GitHub Repository](https://github.com/ultralytics/ultralytics).
 
 ## 6. Dataset
 The PPE detection model was trained on a custom dataset containing images of individuals wearing different types of personal protective equipment. The dataset includes the following PPE categories:
-- Helmet
+- Hardhat
+- NO-hardhat
 - Mask
+- NO-Mask
 - Safety Vest
+- NO-Safety Vest
+- Person
+- Gloves
+- SUV
+- Safety Cone
+- Ladder
+- Excavator
+- bus
+- dump truck
+- fire hydrant
+- machinery
+- mini-van
+- sedan
+- semi
+- trailer
+- truck and trailer
+- truck
+- van
+- vehicle
+- wheel loader
+
 
 The dataset consists of approximately 10,000 labeled samples, split into training and validation sets.
 
