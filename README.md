@@ -78,10 +78,13 @@ To train the YOLOv8 PPE detection model using the custom dataset:
 
 ## 8. Evaluation
 The model's performance was evaluated using several evaluation metrics, including:
-- Mean Average Precision (mAP)
 - Precision
+![Precision Curve](https://github.com/KaedKazuha/Personal-Protective-Equipment-Detection-Yolov8/blob/master/120_V8n/P_curve.png?raw=true)
 - Recall
+![Recall Curve](https://github.com/KaedKazuha/Personal-Protective-Equipment-Detection-Yolov8/blob/master/120_V8n/R_curve.png?raw=true)
 - F1 Score
+![F1 Confidence Curve](https://github.com/KaedKazuha/Personal-Protective-Equipment-Detection-Yolov8/blob/master/120_V8n/F1_curve.png?raw=true)
+
 
 The evaluation was conducted on the validation set, and the model achieved an mAP of 0.85 for PPE detection.
 
@@ -90,9 +93,8 @@ After training and evaluation, the YOLOv8 model demonstrated robust PPE detectio
 
 Here is a visualization of the detection results on sample images:
 
-![Sample Detection](link_to_sample_detection_image)
+![Sample Detection](https://github.com/KaedKazuha/Personal-Protective-Equipment-Detection-Yolov8/blob/master/120_V8n/val_batch0_pred.jpg?raw=true)
 
-For detailed results, refer to the [results.md](results.md) file.
 
 ## 10. Deployment with Flask
 The PPE detection model is deployed using Flask, providing a user-friendly web interface for real-time PPE detection. Flask enables seamless integration with the model, allowing users to upload images or provide links to videos and receive instant detection results through the web app.
