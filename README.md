@@ -15,8 +15,7 @@
 9. Results
 10. Deployment with Flask
 11. Future Improvements
-12. Contributors
-13. License
+
 
 ## 1. Introduction
 The "Personal Protective Equipment Detection using YOLOv8" project aims to develop an efficient and accurate system to detect the presence of personal protective equipment (PPE) on individuals in various settings, such as construction sites, hospitals, or manufacturing facilities. The system utilizes the YOLOv8 object detection model, leveraging machine learning and computer vision techniques to automatically identify whether a person is wearing appropriate PPE, including items like helmets, masks, and safety vests.
